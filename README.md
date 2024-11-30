@@ -1,4 +1,4 @@
-![main category distribution (zero shot classification)](https://github.com/user-attachments/assets/5cda507e-395f-4b41-b855-b22d6b63b494)# Media Bias Analysis in Indian News Articles
+# Media Bias Analysis in Indian News Articles
 
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
