@@ -1,0 +1,15 @@
+pandas
+requests
+beautifulsoup4
+tqdm
+transformers
+plotly
+matplotlib
+seaborn
+numpy
+scipy
+scikit-learn
+torch
+sentence-transformers
+imbalanced-learn
+xgboost
