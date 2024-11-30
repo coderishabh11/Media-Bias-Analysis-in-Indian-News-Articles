@@ -1,4 +1,4 @@
-# Media Bias Analysis in Indian News Articles
+![main category distribution (zero shot classification)](https://github.com/user-attachments/assets/5cda507e-395f-4b41-b855-b22d6b63b494)# Media Bias Analysis in Indian News Articles
 
 
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)
@@ -33,25 +33,25 @@ Media serves as a cornerstone of democracy, yet biasâ€”whether overt or subtleâ€
 ### 2. **Categorization of Articles**
 - Articles were classified into eight main categories: Politics, Culture & Lifestyle, Business, Health, Disaster, Economy, Sports, and Science & Technology.
 - Subcategories were defined for detailed analysis using a Zero-Shot Classification approach.
-- ![main category distribution (zero shot classification)](https://github.com/user-attachments/assets/c54d68b2-46dd-4889-9c8b-298026939413)
+- ![main category distribution (zero shot classification)](https://github.com/user-attachments/assets/906e4f3e-979e-4ec8-827d-4e856e71a11b)
 
 ### 3. **Tone Detection**
 - Sentiment analysis was conducted using the Twitter RoBERTa pretrained model to classify article tones into Very Negative, Negative, Neutral, Positive, and Very Positive.
-- ![article_tone_distribution](https://github.com/user-attachments/assets/a03f8eff-eda1-4f59-be9a-13cfe688e7f1)
+- ![article_tone_distribution](https://github.com/user-attachments/assets/ed38bbdd-4379-48ac-a634-4ebfa6357d9c)
 
 ### 4. **Classification of News Types**
 - Articles were categorized into News Reports, News Analysis, and Opinion using a semi-supervised approach combining manual labeling and BERT-based embeddings.
-- ![news type distribution](https://github.com/user-attachments/assets/42b8d244-933c-454a-b369-9b7cecde533c)
+- ![news type distribution](https://github.com/user-attachments/assets/d3d64ecb-b38e-4f0c-91ed-ced1ecfc8216)
 
 ### 5. **Political Leaning Detection**
 - A lexicon-based approach with TF-IDF and BERT embeddings was employed to determine political leaning (Left, Right, Neutral).
-- ![political leaning distribution](https://github.com/user-attachments/assets/a1c9ce6f-38b8-4f19-b09a-fee8da7ba59d)
+- ![political leaning distribution](https://github.com/user-attachments/assets/39b2dafd-5a94-4ec5-b8e8-d1d6ac464758)
 
 ### 6. **Bias Detection Model**
 - A contextual bias score was computed using cosine similarity and a lexicon of 3,000 bias-related terms.
 - A hybrid classification model using Longformer embeddings, sentiment scores, and article features was developed to classify biased versus unbiased articles.
-- ![bias score by main category](https://github.com/user-attachments/assets/78b3db09-143e-41ef-bd21-dbcf00a4803a)
-- ![bias-unbias by year](https://github.com/user-attachments/assets/87bb43be-62e4-4e8e-982d-0505efe462d9)
+- ![bias score by main category](https://github.com/user-attachments/assets/e847d254-6847-472a-b0af-7980f896c322)
+- ![bias-unbias by year](https://github.com/user-attachments/assets/1ba35781-520e-4058-97d4-6fb467dd1aca)
 
 ---
 
