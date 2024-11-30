@@ -105,7 +105,7 @@ You can check these results in the `Results/` folder, which contains the generat
 ## How to Use
 1. **Clone Repository**:
    ```bash
-   git clone <repository-link>
+   git clone https://github.com/coderishabh11/Media-Bias-Analysis-in-Indian-News-Articles.git
    ```
 2. **Install Dependencies**:
    ```bash
